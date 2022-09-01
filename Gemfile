@@ -24,6 +24,7 @@ gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
+  gem 'brakeman'
   gem 'bundler-audit', '~> 0.9.1'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'haml-lint'

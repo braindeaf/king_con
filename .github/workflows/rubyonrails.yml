@@ -41,7 +41,7 @@ jobs:
           bundler-cache: true
       # Add or replace any other lints here
       - name: Security audit dependencies
-        run: bundle audit --update
+        run: bundle exec bundler-audit --update
       - name: Outdated dependencies
         run: bundle outdated
       - name: Security audit application code

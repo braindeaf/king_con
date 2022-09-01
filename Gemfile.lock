@@ -73,6 +73,7 @@ GEM
     bindex (0.8.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
+    brakeman (5.3.1)
     builder (3.2.4)
     bulma-rails (0.9.3)
       sassc (~> 2.0)
@@ -323,6 +324,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  brakeman
   bulma-rails (~> 0.9.3)
   bundler-audit (~> 0.9.1)
   capybara
