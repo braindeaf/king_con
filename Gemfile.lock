@@ -76,6 +76,9 @@ GEM
     builder (3.2.4)
     bulma-rails (0.9.3)
       sassc (~> 2.0)
+    bundler-audit (0.9.1)
+      bundler (>= 1.2.0, < 3)
+      thor (~> 1.0)
     capybara (3.37.1)
       addressable
       matrix
@@ -321,6 +324,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   bulma-rails (~> 0.9.3)
+  bundler-audit (~> 0.9.1)
   capybara
   debug
   devise (~> 4.8)

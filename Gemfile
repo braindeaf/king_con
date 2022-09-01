@@ -28,6 +28,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'bundler-audit', '~> 0.9.1'
   gem 'haml-lint'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-rails'
