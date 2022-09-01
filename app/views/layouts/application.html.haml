@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title KingCon
+    %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    = javascript_importmap_tags
+  %body
+    = yield
+    %footer.footer
+      .content.has-text-centered
+        %p
+          %strong powered by #{link_to 'KingCon', 'https://github.com/braindeaf/king_con'}
