@@ -30,6 +30,7 @@ end
 group :development do
   gem 'haml-lint'
   gem 'rubocop', '~> 1.36'
+  gem 'rubocop-rails'
   gem 'web-console'
 end
 
