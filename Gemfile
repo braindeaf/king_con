@@ -29,6 +29,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'haml-lint'
   gem 'rubocop', '~> 1.36'
+  gem 'rubocop-discourse'
   gem 'rubocop-rails'
 end
 
