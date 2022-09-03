@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # config/initializers/bulma_form_builder.rb
 
 # There are a few things to mention:
