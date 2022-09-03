@@ -17,10 +17,14 @@ AllCops:
     - vendor/bundle/**/*
 Layout/LineLength:
   Max: 120
+  Exclude:
+    - config/initializers/devise.rb
 Lint/EmptyBlock:
   Exclude:
     - db/schema.rb
 Metrics/MethodLength:
   Max: 20
+  Exclude:
+    - db/migrate/**/*
 Style/Documentation:
   Enabled: false

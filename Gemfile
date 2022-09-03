@@ -10,6 +10,7 @@ gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem 'bootsnap', require: false
 gem 'bulma-rails', '~> 0.9.3'
 gem 'devise', '~> 4.8'
+gem 'devise-i18n'
 gem 'haml-rails'
 gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
@@ -28,18 +29,21 @@ group :development, :test do
   gem 'bundler-audit', '~> 0.9.1'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'haml-lint'
+  gem 'rspec-rails'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-discourse'
   gem 'rubocop-rails'
 end
 
 group :development do
+  gem 'erb2haml'
   gem 'web-console'
 end
 
 group :test do
   gem 'capybara'
-  gem 'rspec-rails'
+  gem "factory_bot", "~> 6.2"
+  gem "faker", "~> 2.23"
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end

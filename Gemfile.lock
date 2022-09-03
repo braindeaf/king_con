@@ -101,10 +101,18 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-i18n (1.10.2)
+      devise (>= 4.8.0)
     diff-lcs (1.5.0)
     digest (3.1.0)
+    erb2haml (0.1.5)
+      html2haml
     erubi (1.11.0)
     erubis (2.7.0)
+    factory_bot (6.2.1)
+      activesupport (>= 5.0.0)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -335,6 +343,10 @@ DEPENDENCIES
   capybara
   debug
   devise (~> 4.8)
+  devise-i18n
+  erb2haml
+  factory_bot (~> 6.2)
+  faker (~> 2.23)
   haml-lint
   haml-rails
   image_processing (~> 1.2)

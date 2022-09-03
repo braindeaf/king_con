@@ -1,0 +1,21 @@
+%nav.navbar{"aria-label" => "main navigation", :role => "navigation"}
+  .navbar-brand
+    %a.navbar-item{:href => root_path}
+      %img{:height => "28", :src => "https://bulma.io/images/bulma-logo.png", :width => "112"}/
+  .navbar-menu
+    .navbar-start
+      %a.navbar-item
+        Home
+      %a.navbar-item
+        About
+    .navbar-end
+      .navbar-item
+        .buttons
+          - if user_signed_in?
+            = link_to destroy_user_session_path, class: 'button is-primary', data: { 'turbo-method': 'delete' } do
+              %strong Logout
+          - else
+            = link_to new_user_registration_path, class: 'button is-primary' do
+              %strong Sign Up
+            = link_to new_user_session_path, class: 'button is-light' do
+              %strong Log In
