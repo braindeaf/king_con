@@ -1,0 +1,8 @@
+%h2 Edit Account
+
+= form_for(current_user, url: account_path) do |f|
+  = f.label :handle
+  = f.text_field :handle
+  = f.label :email
+  = f.text_field :email
+  = f.submit 'Save'

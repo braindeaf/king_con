@@ -3,20 +3,21 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.0'
+ruby '3.1.2'
 
-gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
+gem 'rails', '~> 7.0.4', '>= 7.0.3.1'
 
 gem 'bootsnap', require: false
 gem 'bulma-rails', '~> 0.9.3'
 gem 'devise', '~> 4.8'
 gem 'devise-i18n'
-gem 'haml-rails'
+gem 'haml-rails', '2.1.0'
 gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
 gem 'jbuilder'
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 6.0'
 gem 'redis', '~> 4.0'
+gem 'redis-session-store'
 gem 'sassc-rails'
 gem 'sprockets-rails'
 gem 'sqlite3', '~> 1.4'
@@ -43,7 +44,7 @@ end
 group :test do
   gem 'capybara'
   gem "factory_bot", "~> 6.2"
-  gem "faker", "~> 2.23"
+  gem "faker", "~> 3.0"
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
