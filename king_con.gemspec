@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.0.3.1"
   spec.add_dependency "haml-rails"
-  
+
   spec.add_development_dependency "capybara"
   spec.add_development_dependency "puma"
   spec.add_development_dependency "pry"

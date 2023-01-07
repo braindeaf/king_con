@@ -76,6 +76,9 @@ GEM
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     builder (3.2.4)
+    bundler-audit (0.9.1)
+      bundler (>= 1.2.0, < 3)
+      thor (~> 1.0)
     capybara (3.38.0)
       addressable
       matrix
@@ -224,6 +227,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bundler-audit
   capybara
   haml-rails
   king_con!
