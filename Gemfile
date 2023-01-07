@@ -9,6 +9,8 @@ gem "sqlite3"
 gem "sprockets-rails"
 
 group :test do
+  gem "brakeman"
+  gem "rspec-rails"
   gem "bundler-audit"
 end
 

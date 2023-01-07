@@ -75,6 +75,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    brakeman (5.4.0)
     builder (3.2.4)
     bundler-audit (0.9.1)
       bundler (>= 1.2.0, < 3)
@@ -227,6 +228,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  brakeman
   bundler-audit
   capybara
   haml-rails
