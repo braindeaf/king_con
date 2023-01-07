@@ -66,5 +66,5 @@ RSpec.configure do |config|
 end
 
 Capybara.configure do |c|
-  c.javascript_driver = :selenium_chrome #_headless
+  c.javascript_driver = :selenium_chrome_headless
 end

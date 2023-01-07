@@ -7,10 +7,10 @@ gemspec
 gem "haml-rails"
 gem "sqlite3"
 gem "sprockets-rails"
+gem "rspec-rails"
 
 group :test do
-  gem "brakeman"
-  gem "rspec-rails"
+  gem "brakeman"  
   gem "bundler-audit"
 end
 
