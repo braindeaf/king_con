@@ -1,0 +1,10 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 2.7.6
+
+Style/Documentation:
+  Enabled: false
